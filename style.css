@@ -16,6 +16,8 @@ header > h1, header > p {
 }
 
 #textbox {
-    border: none;
-    border-left: 3px solid #00ff00;
+     border: none; 
+    border-left: 3px solid #00ff00; 
+
+    
 }
