@@ -9,21 +9,13 @@ body {
 }
 
 .terminal {
-    flex: 1; /* Terminal takes up remaining space */
+     flex: 1; /* Terminal takes up remaining space */
     overflow-y: auto; /* Enable vertical scrolling if needed */
     padding: 10px;
     background-color: black;
     color: white;
 }
 
-header > h1 {
-    margin: 20px;
-}
-
-#textbox {
-    outline: none;
-    border-left: 3px solid #00ff00;
-}
 
 .user-input input {
     width: 100vw; /* Adjust input width as needed */
