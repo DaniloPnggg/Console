@@ -6,6 +6,8 @@ body {
     display: flex;
     flex-direction: column;
     overflow: hidden; /* Não dar mais pra scrollar */
+    background-color: #000000;
+    color: #00ff00;
 }
 
 .terminal {
