@@ -1,5 +1,15 @@
-const input = document.getElementById(`textbox`).value
-alert(`sexo sexo sexo sexo sexo eu gosto de fazer SEXO eu gosto MUITO de fazer SEXO`)
-if (input.value === `/help`) {
-    //teste
-}
+const input = document.querySelector(`#textbox`)
+let isClicked = false
+
+input.addEventListener(`keypress`, function (e) {
+    if (e.key === `Enter`) {
+        const inputValue = input.value
+        if (inputValue === `/help`) {
+            alert(`Teste`)
+        } else {
+            alert(`Comando errado`)
+        }
+    }
+})
+
+
