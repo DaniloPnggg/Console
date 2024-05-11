@@ -9,5 +9,13 @@
 header {
     border: 3px solid transparent;
     border-bottom: 3px double #00ff00;
+}
+
+header > h1, header > p {
     margin: 20px;
+}
+
+#textbox {
+    border: none;
+    border-left: 3px solid #00ff00;
 }
