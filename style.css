@@ -1,41 +1,31 @@
-body {
+* {
     margin: 0;
     padding: 0;
-    font-family: 'Courier New', Courier, monospace;
-    height: 100vh; /* Set body height to viewport height */
-    display: flex;
-    flex-direction: column;
-    overflow: hidden; /* Não dar mais pra scrollar */
     background-color: #000000;
     color: #00ff00;
+    font-family: 'Consolas', Courier, monospace;
+    /* overflow: hidden; Não dar mais pra scrollar */
 }
 
-.terminal {
-    flex: 1; /* Terminal takes up remaining space */
-    overflow-y: auto; /* Enable vertical scrolling if needed */
-    padding: 10px;
-    background-color: black;
-    color: white;
-}
-
-header > h1 {
-    margin: 20px;
+header {
+    border: 3px solid transparent;
+    border-bottom: 5px double #00ff00;
+    padding: 20px;
 }
 
 #textbox {
-    outline: none;
     border-left: 3px solid #00ff00;
+    outline: none;
 }
 
 .user-input input {
-    width: 100vw; /* Adjust input width as needed */
+    width: 100vw;
     padding: 5px;
-    margin-right: 10px;
+    margin-left: 20px;
     border: none;
+    outline: none;
     background-color: #000;
     color: #00ff00;
-    outline: none;
-    padding: 20px;
 }
 
 ::placeholder {
